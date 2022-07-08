@@ -1,0 +1,21 @@
+package learning;
+
+import java.io.FileWriter;
+
+public class FileWriter {
+	public static void main(String args[]) {
+	
+	 FileWriter fw = new FileWriter("D:\\vilas simpliLearn sunil.txt");
+
+     
+		fw.write("welcome");
+		
+		     
+
+		      fw.close();
+		    }
+		    catch (Exception e) {
+		      e.getStackTrace();
+		    }
+
+}

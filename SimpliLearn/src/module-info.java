@@ -1,0 +1,3 @@
+module SimpliLearn {
+	exports collection;
+}

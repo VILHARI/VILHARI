@@ -1,0 +1,20 @@
+package learning;
+
+import java.io.File;
+
+public class FileWriter {
+	
+
+	public static void main(String args[]) {
+
+	    File f=new File();
+        if (f.createNewFile()){
+            System.out.println("File is created!");
+          }else{
+            System.out.println("File already exists.");
+
+	    
+	    
+	    
+}
+	}
